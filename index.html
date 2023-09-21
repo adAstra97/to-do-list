@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+   <meta name="author" content="Veronika Levchuk">
+   <meta name="description" content="ToDoList">
+   <link rel="apple-touch-icon" sizes="180x180" href="./image/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./image/favicon/favicon-16x16.png">
+   <link rel="manifest" href="./image/favicon/site.webmanifest">
+   <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>ToDoList</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <h1 class="header__title">ToDoList<img style='padding-left: 10px;' src="./image/head3.png" alt="check"></h1>
+         <span class="header__subtitle">Just do It</span>
+      </header>
+      <main class="main">
+         <div class="main__subtitle">
+            <span class="main__subtitle--left">Add a new task</span>
+            <span class="main__subtitle--right" >Clear all</span>
+         </div>
+         <form class="form">
+            <input class="form__input" type="text" name="task" placeholder="Enter your text...">
+            <button class="form__btn" type="submit">SAVE</button>
+         </form>
+         <ul class="list">
+            <li class="list__empty">
+               <img class="list__empty--img" src="./image/pngegg.png" alt="Chilling">
+               <span class="list__empty--title">Nothing to do</span>
+            </li>
+            <!-- <li class="item">
+               <div class="item__done">
+                  <input type="checkbox" id="done" name="done" />
+                  <label for="done"></label>
+               </div>
+               <span class="item__title">Купить яйца</span>
+               <form class='item__edit'>
+                  <input class='item__edit--input' type='text' name='task'>
+                  <button class='item__edit--btn' type='submit'>СОХРАНИТЬ</button>
+               </form>
+               <button class="item__del" type="button">
+                  <img class="item__del--image" src="./image/rubbish.png" alt="">
+               </button>
+            </li> -->
+         </ul>
+      </main>
+   </div>
+   <script src="./js/script.js"></script>
+</body>
+</html>
